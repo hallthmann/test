@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Travis integration test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hallthmann/test.git"
+  },
+  "author": "Hallthmann Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hallthmann/test/issues"
+  },
+  "homepage": "https://github.com/hallthmann/test#readme",
+  "dependencies": {
+    "uuid": "^3.2.1"
+  }
+}
