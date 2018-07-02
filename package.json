@@ -4,6 +4,7 @@
   "description": "Travis integration test",
   "main": "hello.js",
   "scripts": {
+    "start": "node hello.js",
     "test": "jshint hello.js"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/hallthmann/test#readme",
   "devDependencies": {
     "jshint": "^2.9.5"
+  },
+  "dependencies": {
+    "request": "^2.87.0"
   }
 }
